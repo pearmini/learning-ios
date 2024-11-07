@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		733283F52CD6C6B000E2D065 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Scrumdinger.app; path = "/Users/subairui/Documents/projects/Scrumdinger/build/Debug-iphoneos/Scrumdinger.app"; sourceTree = "<absolute>"; };
-		733284052CD6C6B200E2D065 /* ScrumdingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ScrumdingerTests.xctest; path = "/Users/subairui/Documents/projects/Scrumdinger/build/Debug-iphoneos/Scrumdinger.app/PlugIns/ScrumdingerTests.xctest"; sourceTree = "<absolute>"; };
-		7332840F2CD6C6B200E2D065 /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ScrumdingerUITests.xctest; path = "/Users/subairui/Documents/projects/Scrumdinger/build/Debug-iphoneos/ScrumdingerUITests-Runner.app/PlugIns/ScrumdingerUITests.xctest"; sourceTree = "<absolute>"; };
+		738C622D2CDCFC7200CB5948 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		738C622E2CDCFC7200CB5948 /* ScrumdingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		738C622F2CDCFC7200CB5948 /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -78,6 +78,9 @@
 				733283F72CD6C6B000E2D065 /* Scrumdinger */,
 				733284082CD6C6B200E2D065 /* ScrumdingerTests */,
 				733284122CD6C6B200E2D065 /* ScrumdingerUITests */,
+				738C622D2CDCFC7200CB5948 /* Scrumdinger.app */,
+				738C622E2CDCFC7200CB5948 /* ScrumdingerTests.xctest */,
+				738C622F2CDCFC7200CB5948 /* ScrumdingerUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +106,7 @@
 			packageProductDependencies = (
 			);
 			productName = Scrumdinger;
-			productReference = 733283F52CD6C6B000E2D065 /* Scrumdinger.app */;
+			productReference = 738C622D2CDCFC7200CB5948 /* Scrumdinger.app */;
 			productType = "com.apple.product-type.application";
 		};
 		733284042CD6C6B200E2D065 /* ScrumdingerTests */ = {
@@ -126,7 +129,7 @@
 			packageProductDependencies = (
 			);
 			productName = ScrumdingerTests;
-			productReference = 733284052CD6C6B200E2D065 /* ScrumdingerTests.xctest */;
+			productReference = 738C622E2CDCFC7200CB5948 /* ScrumdingerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		7332840E2CD6C6B200E2D065 /* ScrumdingerUITests */ = {
@@ -149,7 +152,7 @@
 			packageProductDependencies = (
 			);
 			productName = ScrumdingerUITests;
-			productReference = 7332840F2CD6C6B200E2D065 /* ScrumdingerUITests.xctest */;
+			productReference = 738C622F2CDCFC7200CB5948 /* ScrumdingerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
