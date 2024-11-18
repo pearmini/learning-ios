@@ -2,6 +2,28 @@
 
 This is my code, notes and blogs for learning IOS development. The tutorial is the official [tutorial](https://developer.apple.com/tutorials/app-dev-training/getting-started-with-scrumdinger).
 
+## 2024/11/17
+
+- Adding a sheet modifier on _List_ will present the specified view using a modal sheet that partially covers the underlying content. This is useful for short, self-contained tasks.
+
+```swift
+List {}
+  .sheet(isPresented: $isPresented) {
+    TextView("hello World")
+  }
+```
+
+- _@State_ to define a state in the view:
+
+```swift
+struct TextView: View {
+  @State private var name = ""
+  var body: some View {
+     TextField("Your Name", text: $name)
+  }
+}
+```
+
 ## 2024/11/07
 
 - _NavigationStack_, _NavigationLink_ are for navigation between views.
@@ -22,7 +44,7 @@ extension A {
 }
 ```
 
-- Within a _List view_, use _ForEach view_: 
+- Within a _List view_, use _ForEach view_:
 
 ```swift
 List {
@@ -31,6 +53,8 @@ List {
   }
 }
 ```
+
+- Declare a constant with _let_, while declare a variable with _var_
 
 ## 2024/11/02
 
