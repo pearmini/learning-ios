@@ -2,7 +2,7 @@
 
 This is my code, notes and blogs for learning IOS development. The tutorial is the official [tutorial](https://developer.apple.com/tutorials/app-dev-training/getting-started-with-scrumdinger).
 
-## 2024/11/23
+## Bindings (2024/11/23)
 
 - If the child view can both read and modify the property that you defined as the source of truth, you should define it as @Bindings.
 
@@ -44,7 +44,7 @@ struct ThemePicker: View {
 - For React, parent component should pass both the value and setter to the child component for two-way connection.
 - For Vue, parent component should listen to the update event emitted by the child component.
 
-## 2024/11/17
+## States (2024/11/17)
 
 - Adding a sheet modifier on _List_ will present the specified view using a modal sheet that partially covers the underlying content. This is useful for short, self-contained tasks.
 
@@ -66,7 +66,7 @@ struct TextView: View {
 }
 ```
 
-## 2024/11/07
+## Navigation (2024/11/07)
 
 - _NavigationStack_, _NavigationLink_ are for navigation between views.
 - $0 referred to index for mapping array: _attendees.map { Attendee(name: $0) }_
@@ -98,7 +98,7 @@ List {
 
 - Declare a constant with _let_, while declare a variable with _var_
 
-## 2024/11/02
+## Views (2024/11/02)
 
 - Views are the basic building blocks of Swift UI, just like components in React.js.
 - A View contains two structures: the first one is for defining the UI, and the second one is for previewing with mock data.
